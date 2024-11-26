@@ -128,10 +128,10 @@ def candlesticks_plot(df) -> None:
     #df.reset_index(drop=True, inplace=True)
     #plotting the data in Candlesticks which is differntiates the Increase and decrease in price
     figure = go.Figure(data=[go.Candlestick(x=df["Date"],
-                                        open=df["Open"], 
-                                        high=df["High"],
-                                        low=df["Low"], 
-                                        close=df["Close"],
+                                        open=df["Open"].values, 
+                                        high=df["High"].values,
+                                        low=df["Low"].values, 
+                                        close=df["Close"].values,
                                         increasing_line_color='green', 
                                         decreasing_line_color='red',
                                         increasing_fillcolor='green',
