@@ -1,6 +1,7 @@
+pip >=24.0
 pandas
 numpy
-sklearn
+scikit-learn
 tensorflow
 keras_tuner
 warnings
