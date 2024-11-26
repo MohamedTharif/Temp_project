@@ -92,8 +92,8 @@ def filter_data(df) -> pd.DataFrame:
     filtered_df = df[df['Date'].dt.strftime('%B') == month]
 
     # Calculate the price range within the selected month
-    price_min = filtered_df['Close'].min()
-    price_max = filtered_df['Close'].max()
+    price_min = filtered_df['Close'].values.min()
+    price_max = filtered_df['Close'].values.max()
 
     # Display the price range
     st.write(f"Price range for {month}: {price_min} - {price_max}")
