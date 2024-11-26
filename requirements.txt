@@ -1,14 +1,18 @@
-pip >=24.0
+pip<=24.3.1
+setuptools
+wheel
 pandas
 numpy
-scikit-learn
-tensorflow
-keras_tuner
-warnings
-datetime
-streamlit
-yfinance
-yahooquery
-plotly
+seaborn
 matplotlib
+scikit-learn
+catboost
+xgboost
+streamlit
+plotly
+yahooquery
+yfinance
+datetime
+keras_tuner
+tensorflow
 # -e .
