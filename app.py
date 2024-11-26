@@ -180,9 +180,10 @@ if __name__ == "__main__":
         st.write(reverse)
         filter_data(stock_data)
         
-        prediction(stock_data)
+       # prediction(stock_data)
         
         candlesticks_plot(stock_data)
+        
         line_plot(stock_data)
         
     else:
