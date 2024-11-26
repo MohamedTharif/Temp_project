@@ -1,0 +1,13 @@
+pandas
+numpy
+sklearn
+tensorflow
+keras_tuner
+warnings
+datetime
+streamlit
+yfinance
+yahooquery
+plotly
+matplotlib
+# -e .
